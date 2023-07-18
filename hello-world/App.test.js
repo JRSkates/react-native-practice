@@ -9,7 +9,7 @@ import {
 describe('App', () => {
   it("should render the default template", () => {
     render(<App />);
-    const defaultText = screen.getByText("Open up App.js to start working on your app!")
+    const defaultText = screen.getByText("Hello World!")
 
     expect(defaultText).toBeTruthy();
   })
